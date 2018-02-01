@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="40px"
+    android:background="#ffffffff">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30px"
+        android:layout_marginTop="16px"
+        android:text="王大炮 WANG.DAPAO"
+        android:textColor="#333"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16px"
+        android:layout_below="@+id/text1"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="30px"
+        android:text="护照：G50786449"
+        android:textColor="#999"
+        android:textSize="12dp" />
+
+    <ImageView
+        android:id="@+id/iv_add"
+        android:layout_width="34px"
+        android:layout_height="34px"
+        android:layout_marginRight="24px"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:src="@mipmap/ic_item_arrow_grey" />
+
+</RelativeLayout>
